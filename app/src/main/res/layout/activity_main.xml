@@ -18,6 +18,7 @@
         android:text="Magic 8 Ball"/>
 
     <EditText
+        android:id="@+id/questionEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -33,6 +34,7 @@
         android:layout_marginBottom="75dp"
         android:textSize="40sp"
         android:textAllCaps="false"
+        android:onClick="askQuestion"
         android:text="Submit" />
 
 
